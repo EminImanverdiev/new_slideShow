@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.seemdiv
+{
+    width: 60%;
+    height: 420px;
+    background-color: red;
+    margin: auto;
+    margin-top: 29px;
+    position: relative;
+}
+.seemdiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.little-div{
+    width: 60%;
+    height: 150px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+
+}
+.little-div img{
+    width: 23%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+.border{
+    border: 2px solid black;
+    box-shadow: 0 0 120px black;
+    border-radius: 10px;
+}
+.fa-angle-right{
+    width: 30px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 1%;
+    top: 50%;
+    font-size: 26px;
+    box-sizing: border-box;
+    padding-left: 6px;
+    padding-top: 2px;
+    transition: 2s;
+
+}
+.fa-angle-right:hover{
+    background-color: rgb(24, 24, 40);
+    cursor: pointer;
+
+}
+.fa-angle-left{
+    position: absolute;
+    left: 2.5%;
+    top: 52.8%;
+    color: rgb(255, 255, 255);
+    transform: translate(-50%,-50%);
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    font-size: 26px;
+    box-sizing: border-box;
+    padding-left: 6px;
+    padding-top: 2px;
+    transition: 2s;
+
+}
+.fa-angle-left:hover{
+    background-color: rgb(24, 24, 40);
+    cursor: pointer;
+
+}
